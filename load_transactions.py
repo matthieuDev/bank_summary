@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 def content2_transaction_list(html) :
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, features="html.parser")
 
     transactions_soup = soup.find_all('div' , {"class": "transaction"})
 
