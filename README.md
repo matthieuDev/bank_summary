@@ -1,6 +1,8 @@
-# banquepopulaire_summary
+# bank_summary
 
-Permets de grouper les transactions à partir de l'historique de transaction d'un compte banque populaire. 
+Permets de grouper les transactions à partir de l'historique de transaction d'un compte banque populaire ou crédit mutuel. 
+
+## Banque populaire
 
 Nécessite de télécharger la page d'historique.
 
