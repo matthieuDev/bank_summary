@@ -1,3 +1,7 @@
+'''
+Pour regrouper les données chargées
+'''
+
 def group_transactions_by_month(transactions, ignore_balance_positif=True):
     '''
     Regroupe les transactions par mois et cumule les soldes.
